@@ -1,0 +1,195 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #eef1f7, #dfe9f3);
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Resume Container */
+.container {
+    background: #fff;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+    max-width: 950px;
+    margin: auto;
+    transition: all 0.4s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 25px;
+    border-bottom: 4px solid #3498db;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+
+h2 {
+    font-size: 2.5em;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 35px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 30px;
+    color: #34495e;
+}
+
+/* Personal Information */
+p {
+    margin: 12px 0;
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #1c5985;
+    text-decoration: underline;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+th, td {
+    padding: 16px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+td {
+    background: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background: #ecf0f1;
+}
+
+/* Hobbies Section */
+details {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+details:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+summary {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #3498db;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+summary:hover {
+    color: #1c5985;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 35px;
+    font-size: 1.3em;
+}
+
+li {
+    margin: 12px 0;
+    transition: all 0.3s;
+}
+
+li:hover {
+    transform: translateX(8px);
+    color: #2980b9;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 14px 24px;
+    margin: 20px 0;
+    font-size: 1.3em;
+    color: white;
+    background: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #1c5985;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #777;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    .container {
+        padding: 30px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2.2em;
+    }
+    p, td, th, li {
+        font-size: 1.2em;
+    }
+}
